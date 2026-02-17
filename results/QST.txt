@@ -1,0 +1,15 @@
+# Local Environment Setup(MacOS)
+
+I ran these following commands and have also attached the screenshots:
+
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip wheel
+python -m pip install pennylane numpy scipy pandas plotly tqdm nbformat
+
+Requirements:
+numpy
+pandas
+matplotlib
+pennylane
+tqdm
