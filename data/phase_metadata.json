@@ -1,0 +1,12 @@
+{
+  "state": "phase",
+  "expectations": {
+    "X": 0.016,
+    "Y": 1.0,
+    "Z": 0.012
+  },
+  "fidelity": 1.000000017720632,
+  "trace_distance": 0.010000000000000005,
+  "measurement_model": "Pauli XYZ",
+  "shots": 1000
+}

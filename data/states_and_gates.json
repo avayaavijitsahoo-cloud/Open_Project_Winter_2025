@@ -1,0 +1,24 @@
+{
+  "states": {
+    "|0>": {
+      "description": "Computational basis state |0>",
+      "gates": []
+    },
+    "|1>": {
+      "description": "Computational basis state |1>",
+      "gates": ["X"]
+    },
+    "|+>": {
+      "description": "Hadamard basis state |+>",
+      "gates": ["H"]
+    },
+    "|->": {
+      "description": "Hadamard basis state |->",
+      "gates": ["X", "H"]
+    },
+    "(|0> + i|1>)/sqrt(2)": {
+      "description": "Phase-offset superposition state",
+      "gates": ["H", "S"]
+    }
+  }
+}

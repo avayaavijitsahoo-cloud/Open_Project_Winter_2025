@@ -1,0 +1,6 @@
+{
+  "state": "plus",
+  "measurement_model": "Pauli-Z",
+  "shots": 1000,
+  "circuit_summary": "H"
+}
